@@ -6,8 +6,14 @@ plugins {
 group = 'cn.korostudio'
 version = '1.0.0'
 
+allprojects {
+    version = '1.0.0'
+    group = 'cn.korostudio'
+}
+
 repositories {
     mavenCentral()
+    mavenLocal()
 }
 
 dependencies {
@@ -37,6 +43,14 @@ publishing {
                 username = System.getenv("USERNAME")
                 password = System.getenv("TOKEN")
             }
+        }
+    }
+    publications {
+        maven(MavenPublication) {
+            groupId group
+            artifactId project.name
+            version version
+            from components.java
         }
     }
 }
