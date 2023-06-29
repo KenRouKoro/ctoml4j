@@ -1,7 +1,8 @@
 # ctoml4j
 
 ![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/KenRouKoro/ctoml4j)
-[![GitHub release](https://img.shields.io/github/release/kenRouKoro/Interaction.svg)](https://GitHub.com/kenRouKoro/ctoml4j/releases/)
+![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/KenRouKoro/ctoml4j/gradle.yml)
+[![GitHub release](https://img.shields.io/github/release/kenRouKoro/ctoml4j.svg)](https://GitHub.com/kenRouKoro/ctoml4j/releases/)
 ![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/t/KenRouKoro/ctoml4j)
 ![GitHub](https://img.shields.io/github/license/KenRouKoro/ctoml4j)
 
