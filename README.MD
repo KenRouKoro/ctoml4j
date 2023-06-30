@@ -2,6 +2,7 @@
 
 ![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/KenRouKoro/ctoml4j)
 ![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/KenRouKoro/ctoml4j/gradle.yml)
+[![](https://jitci.com/gh/KenRouKoro/ctoml4j/svg)](https://jitci.com/gh/KenRouKoro/ctoml4j)
 [![GitHub release](https://img.shields.io/github/release/kenRouKoro/ctoml4j.svg)](https://GitHub.com/kenRouKoro/ctoml4j/releases/)
 ![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/t/KenRouKoro/ctoml4j)
 ![GitHub](https://img.shields.io/github/license/KenRouKoro/ctoml4j)
@@ -13,7 +14,7 @@
 
 ctoml4j是基于[TOML4J](https://github.com/mwanji/toml4j)修改而来的[TOML 0.4.0](https://github.com/toml-lang/toml/blob/master/versions/en/toml-v0.4.0.md)解析库  
 增加了输出注释支持  
-**示例：**
+## 示例
 ```java
 static class AClass {
     @OutputAnnotation("Hello")
@@ -44,4 +45,19 @@ All methods output:
 anInt = 1
 anArray = [2, 3] # World
 */
+```
+## 如何使用
+### First
+```groovy
+	allprojects {
+    repositories {
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+### And enjoy it
+```groovy
+dependencies {
+    implementation 'com.github.KenRouKoro:ctoml4j:1.0.0'
+}
 ```
